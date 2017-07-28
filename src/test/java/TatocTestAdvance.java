@@ -58,6 +58,8 @@ public class TatocTestAdvance {
 		ele2.sendKeys(JdbcConnectivity.getPasskey());
 		driver.findElement(By.id("submit")).click();
 	    object.close();
+	    
+	    
 		
 
 	}
