@@ -19,8 +19,8 @@ public class TatocTestBasic {
 	 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.firefox.marionette","/home/vibhutigupta/Downloads/geckodriver.exe");
-		//System.setProperty("webdriver.firefox.driver", "/home/vibhutigupta/Desktop/firefoxdriver.exe");
+	//System.setProperty("webdriver.firefox.marionette","/home/vibhutigupta/Downloads/geckodriver.exe");
+		System.setProperty("webdriver.firefox.driver", "D:\\geckodriver.exe");
 		
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);

@@ -12,7 +12,7 @@ public class WithoutFindElement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.firefox.marionette","/home/vibhutigupta/Downloads/geckodriver.exe");
+		System.setProperty("webdriver.firefox.marionette","D:\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://10.0.1.86/tatoc/basic");
 		JavascriptExecutor js = (JavascriptExecutor)driver;	
